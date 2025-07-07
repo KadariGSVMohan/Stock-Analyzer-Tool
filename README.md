@@ -1,7 +1,5 @@
----
 ## 📰 News Research Tool
 > 📈 AI-powered research assistant to analyze and summarize online news articles from URLs using LangChain, OpenAI, and FAISS — with an interactive Streamlit UI.
----
 
 ### 🚀 Features
 * 🔗 Accepts up to 3 news URLs
@@ -66,12 +64,6 @@ news-research-tool/
 * Research financial or political news
 * Get quick answers from multiple articles
 * Compare how different news sources report the same event
----
-### ❓ FAQ
-**Q: Do I need an OpenAI key?**
-Yes, this project uses OpenAI for embeddings and answers.
-**Q: What if I don’t want to use OpenAI?**
-You can swap out `OpenAIEmbeddings` with a local embedding model like HuggingFace + Chroma DB.
 ---
 ### 🙌 Credits
 
