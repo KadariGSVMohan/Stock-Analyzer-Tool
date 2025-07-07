@@ -62,8 +62,8 @@ streamlit run app.py
 ```
 
 
-### 📁 File Structure
-
+📁 File Structure
+bash
 document-analyzer-tool/
 │
 ├── app.py                  # Main Streamlit application
@@ -71,6 +71,7 @@ document-analyzer-tool/
 ├── .env                    # API key environment variables
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project overview and setup
+
 
 ### ✅ Sample Use Cases
 
