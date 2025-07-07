@@ -61,11 +61,9 @@ OPENAI_API_KEY=your_openai_api_key
 streamlit run app.py
 ```
 
----
 
 ### 📁 File Structure
 
-```bash
 document-analyzer-tool/
 │
 ├── app.py                  # Main Streamlit application
