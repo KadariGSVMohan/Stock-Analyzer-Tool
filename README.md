@@ -1,15 +1,19 @@
+
+---
+
 ## 📄 Document Analyzer Tool
 
 > 📈 AI-powered research assistant to analyze and summarize **online documents or news articles from URLs** using LangChain, OpenAI, and FAISS — with an interactive Streamlit UI.
+
+---
+
 ### 🚀 Features
+
 * 🔗 Accepts up to 3 document or article URLs
 * ✂️ Automatically splits long content into manageable chunks
 * 🧠 Generates embeddings using OpenAI's model
 * 🔍 Answers your questions with source references
 * 💬 Clean, centered, interactive Streamlit UI
-### 🖥️ Demo
-
-![Document Analyzer Tool UI Screenshot](screenshot.png)
 
 ### 🧩 Tech Stack
 
@@ -18,6 +22,8 @@
 * **OpenAI** – For language model and embeddings
 * **FAISS** – Vector database for semantic search
 * **Unstructured** – URL content extraction
+
+---
 
 ### ⚙️ Setup Instructions
 
@@ -61,9 +67,11 @@ OPENAI_API_KEY=your_openai_api_key
 streamlit run app.py
 ```
 
+---
 
-📁 File Structure
-bash
+### 📁 File Structure
+
+```bash
 document-analyzer-tool/
 │
 ├── app.py                  # Main Streamlit application
@@ -71,7 +79,9 @@ document-analyzer-tool/
 ├── .env                    # API key environment variables
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project overview and setup
+```
 
+---
 
 ### ✅ Sample Use Cases
 
@@ -79,7 +89,11 @@ document-analyzer-tool/
 * Quickly extract insights from multiple sources
 * Summarize documents and ask AI-driven questions about their content
 
+---
+
 ### 🙌 Credits
 
 * Built with ❤️ using [LangChain](https://www.langchain.com/), [OpenAI](https://openai.com/), and [Streamlit](https://streamlit.io/)
 * Powered by [`unstructured`](https://github.com/Unstructured-IO/unstructured) for robust content extraction
+
+---
